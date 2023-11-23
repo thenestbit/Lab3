@@ -1,4 +1,4 @@
-public class WinnieThePooh extends Alive implements Movement, Equipment {
+public class WinnieThePooh extends Alive implements Moveable, IsAbleToWearBoots {
     private String favoriteFood = "honey";
 
     public WinnieThePooh() {

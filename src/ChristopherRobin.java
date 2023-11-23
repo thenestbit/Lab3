@@ -1,4 +1,4 @@
-public class ChristopherRobin extends Alive implements Movement, Equipment {
+public class ChristopherRobin extends Alive implements Moveable, IsAbleToWearBoots {
     public ChristopherRobin() {
         super("Christopher Robin");
     }

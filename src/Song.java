@@ -1,4 +1,4 @@
-public class Song implements MusicalElement {
+public class Song implements IsMusicalElement {
     private String title;
     private String melody;
 
