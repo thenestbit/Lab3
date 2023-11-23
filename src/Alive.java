@@ -11,7 +11,6 @@ public abstract class Alive {
         return name;
     }
 
-    // Абстрактный метод speak()
 
     @Override
     public boolean equals(Object obj) {

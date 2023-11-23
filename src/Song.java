@@ -13,7 +13,6 @@ public class Song implements MusicalElement {
 
     @Override
     public void playMelody() {
-        // Логика воспроизведения мелодии
         System.out.println("Humming the melody of the song");
     }
 }
