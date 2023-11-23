@@ -18,6 +18,8 @@ public class Adventure {
         pooh.say("I'm naughty Winnie Pooh I ran from Robin!");
         song.playMelody();
         pooh.say("La-la-la!");
+        pooh.say("My favourite food is: " + pooh.getFavoriteFood());
+        pooh.equip(honeyPot);
         pooh.move(forest);
 
         robin.prepareForAdventure(boots);

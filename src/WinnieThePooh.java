@@ -1,5 +1,5 @@
 public class WinnieThePooh extends Alive implements Moveable, IsAbleToWearBoots {
-    private String favoriteFood = "honey";
+    private final String favoriteFood = "honey";
 
     public WinnieThePooh() {
         super("Winnie the Pooh");
