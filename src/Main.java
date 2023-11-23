@@ -1,4 +1,4 @@
-public class Adventure {
+public class Main {
     public static void main(String[] args) {
         WinnieThePooh pooh = new WinnieThePooh();
         ChristopherRobin robin = new ChristopherRobin();
