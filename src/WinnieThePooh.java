@@ -1,6 +1,19 @@
 public class WinnieThePooh extends Alive implements Moveable, IsAbleToWearBoots {
     private final String favoriteFood = "honey";
 
+    public void performTask() {
+        // Локальный класс, описывающий действие спасения маленькой пчелки
+        class RescueAction {
+            public void rescueBee() {
+                System.out.println("Pooh rescues a little bee from honey pot!");
+            }
+        }
+
+        // Используем локальный класс для спасения пчелки
+        RescueAction rescue = new RescueAction();
+        rescue.rescueBee();
+    }
+
     public WinnieThePooh() {
         super("Winnie the Pooh");
     }
