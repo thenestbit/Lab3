@@ -26,7 +26,7 @@ public class Main {
 
             // Бросаем checked исключение
             if (poohCouldNotEquipBoots > 0.7) {
-                throw new AdventureTimeException("What a pity! Pooh couln't equip his boots.");
+                throw new AdventureTimeException("What a pity! Pooh couldn't equip his boots." + "\n" + "Now he is going to walk with no boots. Hurry up, Pooh!");
             }
             pooh.prepareForAdventure(boots);
             pooh.say("My boots are " + details.getSize() + " size and " + details.getStyle() + " style.");
